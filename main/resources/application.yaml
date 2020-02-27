@@ -1,0 +1,10 @@
+---
+spring:
+  profiles: default
+  datasource:
+    url: "jdbc:sqlite:file::memory:?cache=shared"
+    driver-class-name: org.sqlite.JDBC
+    initialization-mode: always
+---   
+spring:
+  profiles: cloud

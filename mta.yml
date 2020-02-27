@@ -1,0 +1,7 @@
+_schema-version: 2.1.0
+ID: com.dts.cap.service.d070317
+version: 1.0.0
+modules:
+   - name: d070317-srv
+     type: java
+     path: srv/target/cap-1.0-SNAPSHOT.jar

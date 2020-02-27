@@ -1,0 +1,29 @@
+gen/
+edmx/
+schema.sql
+*.db
+
+bin/
+target/
+.classpath
+.project
+.settings
+
+node/
+node_modules/
+
+.mta/
+*.mtar
+
+*.log*
+gc_history*
+hs_err*
+*.tgz
+
+
+# added by cds deploy
+default-env.json
+
+
+# added by cds deploy
+connection.properties
