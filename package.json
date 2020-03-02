@@ -23,10 +23,7 @@
         "model": [
           "db",
           "srv"
-        ],
-        "[production]": {
-          "kind": "hana"
-        }
+        ]
       },
       "API_BUSINESS_PARTNER": {
         "kind": "odata",
