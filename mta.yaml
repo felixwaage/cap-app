@@ -4,6 +4,6 @@ version: 1.0.0
 modules:
    - name: d070317-srv
      type: java
-     path: srv/target/cap-1.0-SNAPSHOT.jar
+     path: .
      properties:
         SPRING_PROFILES_ACTIVE: cloud
