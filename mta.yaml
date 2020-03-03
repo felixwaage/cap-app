@@ -5,7 +5,7 @@ modules:
    - name: d070317-srv
      type: java
      build-parameters:
-        build-result: /var/jenkins_home/workspace/my-first-cap-pipeline_master/target/*.war
+        build-result: target/*.war
      path: .
      properties:
         SPRING_PROFILES_ACTIVE: cloud
