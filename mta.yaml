@@ -6,7 +6,7 @@ modules:
      type: java
      build-parameters:
         build-result: srv/target/*.jar
-     path: ./srv
+     path: .
      properties:
         SPRING_PROFILES_ACTIVE: cloud
      requires:
