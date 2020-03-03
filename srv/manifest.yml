@@ -3,6 +3,5 @@ applications:
 - name: D070317-SRV
   memory: 1024M
   instances: 1
-  path: srv/target/cap-1.0-SNAPSHOT.jar
   services:
     - d070317-hana

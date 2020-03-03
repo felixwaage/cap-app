@@ -2,11 +2,11 @@ _schema-version: 2.1.0
 ID: com.dts.cap.service.d070317
 version: 1.0.0
 modules:
-   - name: d070317-srv
+   - name: D070317-srv
      type: java
      build-parameters:
         build-result: srv/target/*.jar
-     path: .
+     path: ./srv
      properties:
         SPRING_PROFILES_ACTIVE: cloud
      
