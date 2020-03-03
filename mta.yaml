@@ -9,4 +9,9 @@ modules:
      path: ./srv
      properties:
         SPRING_PROFILES_ACTIVE: cloud
+     requires:
+        - name: d070317-hana
      
+resources:
+   - name: d070317-hana
+     type: com.sap.xs.hdi-container
